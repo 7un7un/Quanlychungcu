@@ -1,67 +1,102 @@
-/* ----------- Gallery navigation -------------*/
-.ngg-navigation {
-    font-size: 0.9em !important;
-    clear: both !important;
-    display: block !important;
-    padding-top: 24px;
-    padding-bottom: 3px;
-    text-align: center;
+/*
+Theme Name: PMC Quan ly chung cu
+Theme URI: http://quanlychungcu.com.vn
+Author: ToanNK
+Author URI: http://khanhtoanit.com/
+Description:
+Version: 1.0
+*/
+/*@import"css/reset.css";
+@import"css/grid.css";
+@import"css/forms.css";
+@import"css/superfish.css";
+@import"css/tms.css";
+@import"css/theme.css";*/
+
+
+/* CSS Customize */
+.mgt20 {margin-top: 20px}
+.mgt30 {margin-top: 30px}
+.mgt50 {margin-top: 50px}
+ul.news-list {list-style: none;padding: 0;margin: 0}
+ul.news-list li {margin-bottom: 10px;}
+ul.advice-list {}
+ul.advice-list li {}
+ul.advice-list li figure  {margin-right: 10px}
+ul.advice-list li .news-summary  {float: none;width: auto;}
+.news-item .entry-title {}
+.news-item .entry-summary {margin: 0 !important;}
+.block-news {margin-left: 0 !important;}
+.block-video {margin-right: 0 !important;}
+h1.project-name {font-size: 32px;line-height: 1.3em;margin: 0 0 5px}
+
+.featured-thumb {margin-bottom: 5px}
+.featured-thumb a {display: block;width: 310px;height: 174px;overflow: hidden;position: relative;}
+.featured-thumb a .imgoverlay {
+    position: absolute;
+    top: 71px;
+    left: 139px;
+    z-index: 100;
+}
+.featured-thumb a .divoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 310px;
+    height: 174px;
+    background: rgba(0,0,0, .65);
+    z-index: 10;
+}
+h4.featured-title {font-size: 14px;margin: 0 0 10px;padding: 0}
+ul.video-list {}
+ul.video-list li {float: left;width: 310px;min-height: 225px;margin: 0 10px 10px 0}
+.category-khong-gian-song .grid_8 {margin-bottom: 10px;}
+.entry-content img {
+    height: auto;
+    margin: 0;
+    max-width: 630px;
+    width: auto;
 }
 
-.ngg-navigation a.page-numbers,
-.ngg-navigation a.next,
-.ngg-navigation a.prev,
-.ngg-navigation span.page-numbers,
-.ngg-navigation span.next,
-.ngg-navigation span.prev,
-.ngg-navigation span.current {
-    background: #BBB;
-    border: none;
-    border-radius: 2px;
-    box-shadow: none;
-    color: #fff;
-    display:inline;
-    font-size: 14px;
+.nav-menu:after,
+ul.video-list:after,
+header:after
+{
+    display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden;
+}
+
+#project_gallery{margin: 0;padding: 0;/*height:320px*/}
+
+.video-item {margin-bottom: 20px}
+.video-item .video-embed {height: 225px;margin-bottom: 10px}
+.video-item h4 {font-size: 15px !important}
+
+/*
+Video lifebalance*/
+#video-info h1 {
+    margin: 0 0 5px 0;
+    color: #666;
+    font-size: 18px;
+    margin-top: -3px;
+    line-height: 1.2em;
+}
+.video-newsroom-item h3 {
+    margin: 0 0 5px 0;
+    color: #666;
+    font-size: 13px;
     font-weight: bold;
-    margin-right: 3px;
-    padding: 4px 8px;
-    text-decoration: none;
-    cursor: pointer !important;
+    line-height: 1.2em;
 }
+.video-newsroom-item h3 a {}
 
-.ngg-navigation span.current {
-    background: #666;
-}
+#newsroom_more {margin-top: 20px}
+#newsroom_more .grid_4 {margin-bottom: 10px;min-height: 250px;display: inline-block;float: none;vertical-align: top;}
+.article-wrap {padding-right: 20px}
 
-.ngg-navigation a.next,
-.ngg-navigation a.prev,
-.ngg-navigation span.next,
-.ngg-navigation span.prev {
-    background: transparent;
-    color: #BBB;
-    padding: 2px;
-    border: none;
-}
-
-.ngg-navigation a.page-numbers:hover,
-.ngg-navigation span.page-numbers:hover,
-.ngg-navigation span.current:hover {
-    background: #666;
-    color: #FFFFFF !important;
-    text-decoration: none !important;
-}
-
-.ngg-navigation a.next:hover,
-.ngg-navigation a.prev:hover,
-.ngg-navigation span.next,
-.ngg-navigation span.prev {
-    color: #666 !important;
-}
-
-.ngg-navigation a.page-numbers {
-    display: inline;
-}
-
-.ngg-clear {
-    clear: both;
-}
+.sticky-post {margin-bottom: 20px;}
+.sticky-post article {position: relative}
+.sticky-post figure {width: 100%; max-height: 300px; overflow: hidden}
+.sticky-post img {display: block;width: 100%;}
+.sticky-post .text {position: absolute;width: 100%;left: 0;bottom: 0;background: #000;opacity: .8;padding: 10px 0;}
+.sticky-post .text h2 {padding: 0 10px}
+.sticky-post .text p {margin: 0 !important;padding: 0 10px !important}
