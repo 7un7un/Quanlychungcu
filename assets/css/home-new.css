@@ -56,12 +56,24 @@ body {font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:18px
 .rs {margin: 0;padding: 0}
 ul.rs {list-style: none}
 /*==================================== Tun sửa ======================================================== */
+.wrapper
 .noidung{float:left; margin:20px 0 20px 40px; width:200px; height:210px; background:#6fceda; border:none; 
+    border-radius:20px; box-shadow: 4px 5px #408b95}
+#noidung{float:left; margin:20px 0 20px 20px; width:200px; height:210px; background:#6fceda; border:none; 
+    border-radius:20px; box-shadow: 4px 5px #408b95}
+#noidung2{float:left; margin:20px 0 20px 20px; width:200px; height:210px; background:#6fceda; border:none; 
     border-radius:20px; box-shadow: 3px 4px #408b95}
-.layer{position:absolute; width:200px; height:50px; margin:55px 0 0 -6px; background:rgba(0, 0, 0, 0.5); 
-    border-bottom-left-radius:20px; border-bottom-right-radius:20px; vertical-align:middle !important}
-.layer a{color:white !important}
-.layer a:hover{color:yellow !important}
+.noidung:hover{transform:scale(1.1) !important}
+#noidung:hover{transform:scale(1.1) !important}
+#noidung2:hover{transform:scale(1.1) !important}
+.layer{position:absolute; width:200px; height:50px; margin:160px 0 0 0px; background:rgba(0, 0, 0, 0.5); 
+    border-bottom-left-radius:20px; border-bottom-right-radius:20px; vertical-align:middle !important; 
+    line-height:20px !important; color:white !important; border:none !important}
+.layer:hover{color:#80b300 !important}
+.layer2{position:absolute; width:200px; height:50px; margin:160px 0 0 0px; background:rgba(0, 0, 0, 0.5); 
+    border-bottom-left-radius:20px; border-bottom-right-radius:20px; vertical-align:middle !important; 
+    line-height:8px !important; color:white !important; border:none !important}
+.layer2:hover{color:#80b300 !important}
 
 /*==================================== Links ======================================================== */
 a {color:#a5a4a4;outline:none; text-decoration:none; cursor:pointer;}
