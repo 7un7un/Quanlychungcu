@@ -1,11 +1,11 @@
 /*==================================== Tun sửa =============================================== */
 .content_box{width:100%; overflow:hidden; margin:0 auto; padding:-1em; display:flex; flex-wrap:wrap}
 .noidung{margin:1.5em 1.5em; color:white; width:200px; height:225px; background:rgba(0, 0, 0, 0.5); 
-    border-radius:20px; box-sizing:border-box}
-.noidung:hover{transform:scale(1.1)}
+    border-radius:20px; box-sizing:border-box; box-shadow: 5px 5px #888888; justify-content:space-around}
+.noidung:hover{transform:scale(1.1); transition: all 0.6s ease}
 .nd_tren img{border-top-right-radius:20px; border-top-left-radius:20px}
-.nd_duoi{vertical-align:middle; text-align:center; margin-top:2px; font-size:115%}
-.nd_duoi:hover{color:#80b300}
+.nd_duoi{vertical-align:middle; text-align:center; margin-top:2px; font-size:115%; line-height:1.2em}
+.nd_duoi:hover{text-decoration:underline; color:#eeeeee}
 
 /*Responsiv Mobile*/
 @media screen and (min-width:600px){
